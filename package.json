@@ -1,0 +1,20 @@
+{
+  "name":           "utildot",
+  "version":        "0.0.1",
+  "description":    "function subclasses a super constructor across a variable arity of constructors",
+  "repository": {
+    "type":         "git",
+    "url":          "https://github.com/reqshark/utildot"
+  },
+  "author": {
+    "name":         "Bent Cardan",
+    "email":        "bent@nothingsatisfies.com",
+    "url":          "http://req.link"
+  },
+  "license":        "martiniware",
+  "keywords": [
+    "inherits",
+    "inherit",
+    "util"
+  ]
+}
