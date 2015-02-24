@@ -13,10 +13,9 @@
  */
 
 module.exports = {
-  inherits: function (ctor, ctor, ctor, superCtor) {
-    var superCtor = arguments[arguments.length-1];
-    var ctors = arguments.length-1;
-    while(--ctors > -1) inherit(arguments[ctors], superCtor);
+  inherits: function () {
+    var ctrs = arguments.length-1;
+    while(--ctrs > -1) inherit(arguments[ctrs], arguments[arguments.length-1]);
   }
 }
 

@@ -11,6 +11,13 @@
     "email":        "bent@nothingsatisfies.com",
     "url":          "http://req.link"
   },
+  "devDependencies": {
+    "tape":         "~3.5.0",
+    "tap-spec":     "~2.2.1"
+  },
+  "scripts": {
+    "test":         "node test | tap-spec"
+  },
   "license":        "martiniware",
   "keywords": [
     "inherits",

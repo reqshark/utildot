@@ -1,6 +1,7 @@
 # utildot
 
 # inherits(constructor, constructor, super)
+
 function subclasses a super constructor across a variable arity of constructors
 
 instead of doing this:
@@ -19,8 +20,21 @@ function AnotherCtor(){}
 just do:
 
 ```js
-require('utildotinherits')(Ctor, AnotherCtor, require('events').EventEmitter);
+require('utildot')(Ctor, AnotherCtor, require('events').EventEmitter);
 
 function Ctor(){}
 function AnotherCtor(){}
+//... inherit from any number of constructors passed before the superCtor
+```
+
+# install
+
+```bash
+$ npm install
+```
+
+# test
+
+```bash
+$ npm t
 ```
