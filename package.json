@@ -1,6 +1,6 @@
 {
   "name":           "utildot",
-  "version":        "0.0.1",
+  "version":        "0.0.2",
   "description":    "function subclasses a super constructor across a variable arity of constructors",
   "repository": {
     "type":         "git",
