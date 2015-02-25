@@ -2,7 +2,7 @@
 
 ### inherits(constructor, constructor, super)
 
-utildot `inherits()` function subclasses a super constructor across a variable arity of constructors
+function subclasses a super constructor across a variable arity of constructors
 
 instead of doing this:
 
