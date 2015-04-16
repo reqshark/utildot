@@ -1,7 +1,7 @@
 {
   "name":           "utildot",
-  "version":        "0.0.3",
-  "description":    "function subclasses a super constructor across a variable arity of constructors",
+  "version":        "0.0.5",
+  "description":    "a variadic version of `util.inherits`",
   "repository": {
     "type":         "git",
     "url":          "https://github.com/reqshark/utildot"
