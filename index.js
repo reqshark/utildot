@@ -2,13 +2,10 @@
  * Inherit the prototype methods from one constructor into others.
  *
  * The Function.prototype.inherits from lang.js rewritten as a standalone
- * function (not on Function.prototype). NOTE: If this file is to be loaded
- * during bootstrapping this function needs to be rewritten using some native
- * functions as prototype setup using normal JavaScript does not work as
- * expected during bootstrapping (see mirror.js in r114903).
+ * function (not on Function.prototype).
  *
- * @param (variable arity) {function} ctor Constructor functions which need to
- *     inherit the prototype.
+ * @param (variable arity) {function} ctor any number of children Constructors.
+ *   these functions all need to inherit from the same parent prototype.
  * @param {function} superCtor Constructor function to inherit prototype from.
  */
 

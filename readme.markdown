@@ -1,8 +1,12 @@
 # utildot
+line saving javascript inheritence.
 
-### inherits(constructor, constructor, super)
+### inherits(*constructor*, *constructor*, *super*)
 
-function subclasses a super constructor across a variable arity of constructors
+* <strong>grab a super constructor</strong>
+* <strong>apply it to some child constructors using a variadic version of `util.inherits`</strong>
+* <strong>the last parameter given is the super constructor</strong>
+* <strong>any number of constructors given sooner inherit from a prototype of the super constructor</strong>
 
 instead of doing this:
 
