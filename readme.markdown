@@ -36,7 +36,7 @@ function AnotherCtor(){}
 ### install:
 
 ```bash
-$ npm install
+$ npm i utildot
 ```
 
 ### test:
